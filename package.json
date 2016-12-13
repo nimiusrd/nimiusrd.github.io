@@ -1,0 +1,17 @@
+{
+  "name": "nimiusrd.github.io",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git@github.com:nimiusrd/nimiusrd.github.io.git",
+    "type": "git"
+  },
+  "author": "Nimius <nimius.rd@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "eslint": "^3.12.1"
+  },
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  }
+}
