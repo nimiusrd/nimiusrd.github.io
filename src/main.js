@@ -16,8 +16,8 @@ const changePien = () => {
   const left = Math.floor(Math.random() * window.innerWidth)
   const elem = document.getElementById('pien')
 
-  elem.top = `${top}px`
-  elem.left = `${left}px`
+  elem.style.top = `${top}px`
+  elem.style.left = `${left}px`
 }
 
 setInterval(changeColor, 50)
