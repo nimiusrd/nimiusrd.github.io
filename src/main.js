@@ -14,7 +14,7 @@ const changeProgress = () => {
 const changePien = () => {
   const top = Math.floor(Math.random() * window.innerHeight)
   const left = Math.floor(Math.random() * window.innerWidth)
-  const fontSize = Math.floor(Math.random() * 100) + 16
+  const fontSize = Math.floor(Math.random() * 1000) + 16
   const elem = document.getElementById('pien')
 
   elem.style.fontSize = `${fontSize}px`
