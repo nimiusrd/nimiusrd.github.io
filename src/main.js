@@ -12,7 +12,7 @@ const changeProgress = () => {
   document.getElementById('progress').value = n
 }
 const changePien = () => {
-  const top = Math.floor(Math.random() * window.innerHieght)
+  const top = Math.floor(Math.random() * window.innerHeight)
   const left = Math.floor(Math.random() * window.innerWidth)
   const fontSize = Math.floor(Math.random() * 100) + 16
   const elem = document.getElementById('pien')
