@@ -17,11 +17,9 @@ const changePien = () => {
   const fontSize = Math.floor(Math.random() * 100) + 16
   const elem = document.getElementById('pien')
 
-  elem.style = {
-    fontSize: `${fontSize}px`,
-    top: `${top}px`,
-    left: `${left}px`
-  }
+  elem.style.fontSize = `${fontSize}px`
+  elem.style.top = `${top}px`
+  elem.style.left = `${left}px`
 }
 
 setInterval(changeColor, 50)
