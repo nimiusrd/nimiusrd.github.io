@@ -6,5 +6,11 @@ const getColor = () => {
 const changeColor = () => {
   document.body.style.backgroundColor = `#${getColor()}${getColor()}${getColor()}`
 }
+const changeProgress = () => {
+  const n = Math.floor(Math.random() * 100)
+
+  document.getElementById('progress').value = n
+}
 
 setInterval(changeColor, 50)
+setInterval(changeProgress, 50)
