@@ -14,10 +14,14 @@ const changeProgress = () => {
 const changePien = () => {
   const top = Math.floor(Math.random() * window.innerHieght)
   const left = Math.floor(Math.random() * window.innerWidth)
+  const fontSize = Math.floor(Math.random() * 100) + 16
   const elem = document.getElementById('pien')
 
-  elem.style.top = `${top}px`
-  elem.style.left = `${left}px`
+  elem.style = {
+    fontSize: `${fontSize}px`,
+    top: `${top}px`,
+    left: `${left}px`
+  }
 }
 
 setInterval(changeColor, 50)
