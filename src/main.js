@@ -11,6 +11,15 @@ const changeProgress = () => {
 
   document.getElementById('progress').value = n
 }
+const changePien = () => {
+  const top = Math.floor(Math.random() * window.innerHieght)
+  const left = Math.floor(Math.random() * window.innerWidth)
+  const elem = document.getElementById('pien')
+
+  elem.top = `${top}px`
+  elem.left = `${left}px`
+}
 
 setInterval(changeColor, 50)
 setInterval(changeProgress, 50)
+setInterval(changePien, 50)
